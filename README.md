@@ -28,7 +28,7 @@
         Die Angaben dienen ausschließlich zu der visualisierung einer graphischen Darstellung</label>
 
     
-    <h2>Du bist in einer Freundesgruppe in einer Bar/einem Restaurant/ einer Party.
+    <h2>Du bist in einer 5-köpfigen Freundesgruppe in einer Bar/einem Restaurant/ einer Party.
         Einer deiner Freundinnen bringt eine weitere Freundin mit, welche dir schon bekannt ist.
         Die Freundin ist sichtlich müde/schlecht gelaunt (ist in sich gekehrt, redet wenig, wirkt abwesend). Ihre 
         Stimmung verändert sich nicht, wenn man dannach fragt / sie anspricht.
@@ -63,7 +63,7 @@
         </div>
 
         <div class="form-control-2">
-            <label>Wie stark beeinflusst die schlechte Stimmung ihren Abend?
+            <label>Wie stark beeinflusst die schlechte Stimmung ihren Abend?</label>
                 <small>(0 - garnicht, 10 - sehr, versaut den Abend)</small><br>
             <label><input type="radio" name="rating2" value="0"> 0</label>
             <label><input type="radio" name="rating2" value="1"> 1</label>
@@ -79,6 +79,14 @@
         </div>
 
         <div class="form-control-3">
+            <label>Wenn Sie mehr als 5 eingegeben haben, in welche Richtung beeinflusst
+            Sie das Verhalten?</label><br>
+            <textarea name="bonusfrage" id="comment" placeholder="Ihre Antwort"></textarea>
+            
+
+        
+
+        <div class="form-control-3">
             <label>Würden Sie die Person zur nächsten Party/ Treffen einladen?</label><br>
             <label for="recommed-1">
                 <input type="radio" id="recommed-1" name="frage2">Ja
@@ -92,7 +100,7 @@
         </div>
 
         <div class="form-control-4">
-            <label>Würde sich ihr Verhalten zu der Person durch diese Situation verändern?
+            <label>Würde sich ihr Interesse, die Person besser kennenzulernenVerhalten, durch diese Situation verändern?
             </label><br>
             <label for="recommed-4">
                 <input type="radio" id="recommed-4" name="frage3">Ja
