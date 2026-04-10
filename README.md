@@ -78,7 +78,7 @@
             <label><input type="radio" name="rating2" value="10"> 10</label>
         </div>
 
-        <div class="form-control-bonus">
+        <div class="form-control">
             <label>Wenn Sie mehr als 5 eingegeben haben, in welche Richtung beeinflusst
             Sie das Verhalten?</label><br>
             <textarea name="bonusfrage" id="commentbu" placeholder="Ihre Antwort"></textarea>
