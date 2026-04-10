@@ -89,14 +89,16 @@
         <div class="form-control">
             <label>Würden Sie die Person zur nächsten Party/ Treffen einladen?</label><br>
             
-            <input type="radio" id="recommed-1" name="frage2" value="Ja">
-            <label for="recommed-1">Ja</label>
-        
-            <input type="radio" id="recommed-2" name="frage2" value="Nein">
-            <label for="recommed-2">Nein</label>
-        
-            <input type="radio" id="recommed-3" name="frage2" value="vielleicht">
-            <label for="recommed-3">Vielleicht</label>
+            <input type="hidden" id="frage2_hidden" name="frage2" value="">
+    
+    <input type="radio" id="recommed-1" name="frage2_radio" value="Ja" onchange="document.getElementById('frage2_hidden').value=this.value">
+    <label for="recommed-1">Ja</label>
+
+    <input type="radio" id="recommed-2" name="frage2_radio" value="Nein" onchange="document.getElementById('frage2_hidden').value=this.value">
+    <label for="recommed-2">Nein</label>
+
+    <input type="radio" id="recommed-3" name="frage2_radio" value="vielleicht" onchange="document.getElementById('frage2_hidden').value=this.value">
+    <label for="recommed-3">Vielleicht</label>
         </div>
 
         <div class="form-control-4">
