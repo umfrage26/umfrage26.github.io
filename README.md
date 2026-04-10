@@ -100,7 +100,7 @@
         </div>
 
         <div class="form-control-4">
-            <label>Würde sich ihr Interesse, die Person besser kennenzulernenVerhalten, durch diese Situation verändern?
+            <label>Würde sich ihr Interesse, die Person besser kennenzulernen, durch diese Situation verändern?
             </label><br>
             <label for="recommed-4">
                 <input type="radio" id="recommed-4" name="frage3" value="Ja">Ja
@@ -108,7 +108,7 @@
             <label for="recommed-5">
                 <input type="radio" id="recommed-5" name="frage3" value="Nein">Nein
             </label>
-            <textarea name="frage3" id="comment" placeholder="Andere Antwort"></textarea>
+            <textarea name="frage3" id="comment2" placeholder="Andere Antwort"></textarea>
             
         </div>
 
