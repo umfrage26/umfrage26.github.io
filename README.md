@@ -89,13 +89,13 @@
         <div class="form-control-3">
             <label>Würden Sie die Person zur nächsten Party/ Treffen einladen?</label><br>
             <label for="recommed-1">
-                <input type="radio" id="recommed-1" name="frage2">Ja
+                <input type="radio" id="recommed-1" name="frage2" value="Ja">Ja
             </label>
             <label for="recommed-2">
-                <input type="radio" id="recommed-2" name="frage2">Nein
+                <input type="radio" id="recommed-2" name="frage2" value="Nein">Nein
             </label>
             <label for="recommed-3">
-                <input type="radio" id="recommed-3" name="frage2">Vielleicht
+                <input type="radio" id="recommed-3" name="frage2" value="vielleicht">Vielleicht
             </label>
         </div>
 
@@ -103,10 +103,10 @@
             <label>Würde sich ihr Interesse, die Person besser kennenzulernenVerhalten, durch diese Situation verändern?
             </label><br>
             <label for="recommed-4">
-                <input type="radio" id="recommed-4" name="frage3">Ja
+                <input type="radio" id="recommed-4" name="frage3" value="Ja">Ja
             </label>
             <label for="recommed-5">
-                <input type="radio" id="recommed-5" name="frage3">Nein
+                <input type="radio" id="recommed-5" name="frage3" value="Nein">Nein
             </label>
             <textarea name="frage3" id="comment" placeholder="Andere Antwort"></textarea>
             
