@@ -82,7 +82,7 @@
             <label>Wenn Sie mehr als 5 eingegeben haben, in welche Richtung beeinflusst
             Sie das Verhalten?</label><br>
             <textarea name="bonusfrage" id="comment" placeholder="Ihre Antwort"></textarea>
-            
+            </div>
 
         
 
