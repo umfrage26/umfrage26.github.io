@@ -6,7 +6,7 @@
 </head>
 <style>
     body {
-        background-color: #99f0b0;
+        background-color: #edd38c;
     }
     div {
         padding: 5%;
