@@ -114,7 +114,7 @@
 
         <div class="form-control-5">
             <label for="comment">Sonstige Bemerkungen</label><br>
-            <textarea name="kommentar" id="comment" placeholder="Ihr Kommentar"></textarea>
+            <textarea name="kommentar" id="end_comment" placeholder="Ihr Kommentar"></textarea>
         </div>
 
         <div>
