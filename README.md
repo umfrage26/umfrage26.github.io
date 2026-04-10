@@ -78,10 +78,10 @@
             <label><input type="radio" name="rating2" value="10"> 10</label>
         </div>
 
-        <div class="form-control-3">
+        <div class="form-control-bonus">
             <label>Wenn Sie mehr als 5 eingegeben haben, in welche Richtung beeinflusst
             Sie das Verhalten?</label><br>
-            <textarea name="bonusfrage" id="comment" placeholder="Ihre Antwort"></textarea>
+            <textarea name="bonusfrage" id="commentbu" placeholder="Ihre Antwort"></textarea>
             </div>
 
         
@@ -108,7 +108,7 @@
             <label for="recommed-5">
                 <input type="radio" id="recommed-5" name="frage3" value="Nein">Nein
             </label>
-            <textarea name="frage3" id="comment2" placeholder="Andere Antwort"></textarea>
+            <textarea name="frage3_kommentar" id="comment2" placeholder="Andere Antwort"></textarea>
             
         </div>
 
